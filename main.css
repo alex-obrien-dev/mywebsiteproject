@@ -15,7 +15,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-#u101IMG{
+.u101IMG{
     background-image: url("Bckgrnd1sq.jpg");
     background-size: 100%;
     background-repeat: repeat-y;
@@ -23,17 +23,17 @@
 }
 
     
-#u103IMG{
+.u103IMG{
     background-image: url("Bkgrnd5.jpg");
     background-size: 100%;
     background-repeat: repeat-y;
 }
-#u102IMG{
+.u102IMG{
     background-image: url("Bckgrnd2.jpg");
     background-size: 100%;
     background-repeat: repeat-y;
 }
-#u201IMG{
+.u201IMG{
     background-image: url("Bckgrnd4.jpg");
     background-size: 100%;
     background-repeat: repeat-y;
