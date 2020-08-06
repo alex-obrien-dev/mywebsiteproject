@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: "pacifico", "cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
+/*font-family: 'IBM Plex Serif', serif;*/
+
+#homeTXT{
+    color:whitesmoke;
+    margin:80pt;
+    font-size: large;
+}
+#homeBackImg{
+    background-image: url("aboutme11.jpg");
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+
+*{
+    font-family: "IBM Plex Serif", serif;
+    box-sizing: border-box;
+    
+    
+}
+h1{
+    
+    font-size: 80pt;
+    text-align: center;
+    margin-bottom: 100pt;
+    background-color:transparent;
+}
+h2{
+    text-align: cent;
+}
+
+    
+
+.container{
+    margin-top: 20pt;
+    display: flex;
+    min-height: 0vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.box {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    width :400px;
+    flex:4 ;
+}
+.homebox{
+    font-size: 40px;
+    text-align: left;
+    font-weight: bolder;
+    font-family: "pacifico", cursive;
+    min-width: 20px;
+    flex: 2;
+    height:8vh;
+}
+.outcomebox{
+    float: right;
+    text-align: right;
+    font-family: "pacifico", cursive;
+    width: 300px;
+    border-right-style: groove
+}
+.emptyboxnav{
+    border: none;  
+}
+.linkbuttonMArg{
+    margin-right: 500pt;
+    margin-left: 100;
+
+}
+
+
+.button {
+    position: relative;
+    font-size: 90px;
+    background-color:transparent;
+    border: 2px solid black;
+    color:black;
+    padding: 120px;
+    text-decoration: none;
+    display: inline-block;
+    width:20%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin:120px;
+    
+    
+    
+  }  
+.button:hover {
+    background-color: black;
+    
+    color: ivory;
+    border: 2px solid white;
+}
