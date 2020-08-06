@@ -15,7 +15,40 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+#u101IMG{
+    background-image: url(Bckgrnd1sq.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
     
+}
+
+    
+#u103IMG{
+    background-image: url(Bkgrnd5.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+#u102IMG{
+    background-image: url(Bckgrnd2.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+#u201IMG{
+    background-image: url(Bckgrnd4.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+.answersimg{
+    background-image: url(Bckgrnd6.jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.answersBody{
+    margin: 180pt;
+    background-color: rgba(192, 192, 192, 0.3);
+    padding: 10pt;
+}    
 
 *{
     font-family: "IBM Plex Serif", serif;
@@ -31,7 +64,11 @@ h1{
     background-color:transparent;
 }
 h2{
-    text-align: cent;
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 60pt;
+    background-color:transparent;
+    padding-top:200pt ;
 }
 
     
@@ -99,8 +136,16 @@ h2{
     
   }  
 .button:hover {
-    background-color: black;
+    background-color:  rgba(192, 192, 192, 0.3);
     
     color: ivory;
     border: 2px solid white;
+}
+
+.Trellolink{
+    text-decoration: none;
+    font-size: 25pt;
+    background-color: transparent;
+    color: black;
+    
 }
